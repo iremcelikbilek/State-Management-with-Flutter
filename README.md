@@ -50,5 +50,11 @@
   
   ----------
   
+  ## Uygulama Görüntüleri
+  
+  ![](https://github.com/iremcelikbilek/State-Management-with-Flutter/blob/master/github/ss-1.png)
+  ![](https://github.com/iremcelikbilek/State-Management-with-Flutter/blob/master/github/ss-2.png)
+  ![](https://github.com/iremcelikbilek/State-Management-with-Flutter/blob/master/github/ss-3.png)
+  
 
    
