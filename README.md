@@ -42,8 +42,8 @@
     Bu widget kullanılırken dikkat edilmesi gereken en önemi şey sarmalandığı widget kümesini olabildiğince minimum seviyede tutmaktır. Aksi durumda gerekmeyen kısımların tekrar
     rebuild olması State Management mantığına ters olacaktır. :blush:)
     4. **Provider.of<FormatPhoto>(context) --> ScopedModel.of<FormatPhoto>(context)** (İki kullanım da birbirine oldukça benzemektedir. Bazı durumlarda widgeti 3. maddedeki
-    widget'larla sarmalamak yerine tek bir yerde kullanmak isteyebiliriz. Mesela bir butona basarken veya widget ağacında küçük bir kısımda değişiklik göstermek isteyebiliriz.
-    Bu iki durum arasındaki fark hangisinde rebuild olması hangisinde yapılacak değişikliği tetiklemesi gerektiği. Eğer bir butonsa yapılacak değişikliği tetiklemsi gerekir ki
+    widget'larla sarmalamak yerine tek bir yerde kullanmak isteyebiliriz. Mesela bir butona basarken veya widget ağacında küçük bir kısımda değişiklik göstermek isterken.
+    Bu iki durum arasındaki fark hangisinde rebuild olması, hangisinde yapılacak değişikliği tetiklemesi gerektiği. Eğer bir butonsa yapılacak değişikliği tetiklemesi gerekir ki
     bu durumda rebuild olmasına gerek yoktur. Bu yüzden (context, listen: false) yapılır. Aksi durumda (context) parametresinin geçilmesi yeterlidir.)
   
   > Aradaki farklar yukarıdaki iki projede daha anlaşılır bir şekilde fark edilecektir. :+1:
